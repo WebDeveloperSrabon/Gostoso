@@ -1,0 +1,253 @@
+/* google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,500&family=Satisfy&display=swap");
+
+/* Fonts */
+/* --fonts1: font-family: 'Alegreya', serif;
+    --fonts2: font-family: 'Satisfy', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alegreya", serif;
+}
+a {
+  color: white !important;
+}
+/* header section desgin start */
+.navbar-collapse .fa-brands.fa-twitter {
+  margin-right: 15px !important;
+  font-size: 22px;
+  cursor: pointer;
+}
+.navbar-collapse .fa-brands.fa-facebook-f {
+  margin-right: 15px !important;
+  font-size: 22px;
+  cursor: pointer;
+}
+.navbar-collapse .fa-brands.fa-linkedin {
+  font-size: 22px;
+  cursor: pointer;
+}
+.navbar-brand {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
+/* header section desgin Ends */
+
+/* main section start */
+.hero {
+  height: 100vh;
+  max-height: 700px;
+  width: 100%;
+  background-image: url("../img/Hero.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button.btn.border.fw-bold.herobtn {
+  border: 1px solid white !important;
+}
+
+/* main section Ends */
+
+/* section 2 design start */
+.cokesP {
+  color: #a47d5e;
+}
+.semicolon {
+  margin-top: -1rem;
+}
+.semicolon2 {
+  margin-top: 1rem !important;
+}
+.boxShado {
+  box-shadow: 2px 1px 16px black;
+}
+.TakesSoGood {
+  position: relative;
+  z-index: -1;
+}
+.TakesSoGood::before {
+  content: "";
+  width: 200px;
+  height: 200px;
+  top: 8.5rem;
+  left: 11.5rem;
+  background-image: url("../img/CokeShape.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 11;
+}
+#sction2 {
+  position: relative;
+}
+.sectionAbsolute {
+  /* position: relative; */
+  z-index: 999;
+  top: 16rem !important;
+  left: 56.5rem !important;
+  font-family: "Alegreya", serif;
+}
+
+/* section 2 design Ends */
+
+/* section 3 design start */
+
+/* section 5 design start */
+#section5 {
+  background-color: #f3f1e9 !important;
+}
+.section5BTN {
+  bottom: 3rem;
+  border: none !important;
+  left: -1rem;
+  border-radius: none !important;
+}
+/* section 5 design Ends */
+
+.mainContent {
+  width: 100%;
+  height: 700px;
+  max-height: 700px;
+  background-image: url("../img/hero2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.col-12.d-flex.align-items-center.justify-content-center.h-75.w-75 {
+  margin-top: 11rem;
+}
+
+.avater {
+  padding: 34px;
+  position: relative;
+  z-index: 2;
+}
+.avater::before {
+  content: "";
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  background-image: url("../img/Testyback.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  left: 16.4rem;
+  top: 12.2rem;
+  z-index: 0;
+}
+.readyIn {
+  position: relative;
+}
+.readyin {
+  text-align: center;
+  position: absolute;
+  top: 7rem;
+  right: 5.5rem;
+  background-color: white;
+  width: 10rem;
+  z-index: 5;
+  background-image: url("../img/vector1.jpg");
+}
+/* section 3 design Ends */
+
+/* section5 start */
+
+.section5absolute {
+  right: 2rem !important;
+  top: 3.7rem;
+}
+
+.section5Img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/vector1.jpg");
+}
+
+/* section5 Ends */
+
+/* slider start */
+.carousel {
+  position: relative;
+  z-index: 999;
+}
+
+/* slider Ends */
+
+/* section 4 design start */
+
+.section4Ima {
+  background-image: url("../img/breakfast.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+.section4Img {
+  width: 70%;
+  height: 10rem;
+}
+.section4Document {
+  top: 3rem;
+  left: 6.2rem;
+  justify-content: space-between;
+}
+.documentBTN {
+  border: 1px solid #a47d5e;
+  padding: 5px 50px;
+}
+.documentBTN:hover {
+  background-color: #a47d5e;
+}
+/* section 4 design Ends */
+
+/* footer section design start */
+footer {
+  background-color: #f3f1e9 !important;
+  padding-top: 50px;
+}
+
+.footerMenu .container .row ul li {
+  /* border-right: 2px solid black !important; */
+}
+
+/* footer section design Ends */
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+  .TakesSoGood::before {
+    content: "";
+    width: 193px !important;
+    left: 5.5rem;
+  }
+  .sectionAbsolute {
+    top: 49rem !important;
+    left: 9.5rem !important;
+  }
+  .readyin {
+    display: none;
+  }
+  .mainContent {
+    height: 500px;
+  }
+
+  .col-12.col-lg-6.d-flex.mt-5.align-items-center.justify-content-center.readyIn {
+    margin-top: 5.6em !important;
+  }
+}
